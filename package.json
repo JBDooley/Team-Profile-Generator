@@ -4,5 +4,12 @@
     },
     "devDependencies": {
         "jest": "^29.4.2"
+    },
+    "scripts": {
+        "test": "jest",
+        "start": "node index.js"
+    },
+    "directories": {
+        "test": "_tests_"
     }
 }
