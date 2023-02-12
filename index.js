@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs"); 
+const generateHtml = require("./src/template");
 
 const Employee = require("./lib/Employee")
 const Engineer = require("./lib/Engineer");
@@ -138,6 +139,9 @@ function createIntern() {
 }
 
 function createTeam() {
+    fs.writeFile("./dist/output.html", generateHtml(teamArray), (err) =>
+    err ? console.log(err) : console.log("Successfully created HTML file!")
+  );
     console.log(teamArray);
 }
 createManager();
