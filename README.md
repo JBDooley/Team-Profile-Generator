@@ -8,6 +8,10 @@
 
 
 
+https://user-images.githubusercontent.com/110794211/218334815-13915b86-6724-4e27-8a5a-0f5caa6fbc16.mp4
+
+
+
   ## Installation
 
   The user runs the command "npm install" or "npm i" in their terminal
